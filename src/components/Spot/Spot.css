@@ -1,0 +1,30 @@
+.Spot {
+  height: 198px;
+  width: 198px;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #AE76DB;
+}
+
+@media only screen and (max-width: 620px) {
+  .Spot {
+    width: 138px;
+    height: 138px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .Spot {
+    width: 98px;
+    height: 98px;
+  }
+}
+
+.BlueTeam {
+  background-color: #6d99e0;
+}
+
+.RedTeam {
+  background-color: #d16060;
+}

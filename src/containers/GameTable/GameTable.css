@@ -1,0 +1,46 @@
+.GameTable {
+  width: 600px;
+  height: 600px;
+  margin: 26px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  box-shadow: 4px 4px 15px 3px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 620px) {
+  .GameTable {
+    width: 420px;
+    height: 420px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .GameTable {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+.Wrapper h1 {
+  font-family: 'Ubuntu';
+  font-weight: 500;
+}
+
+.RedPlayerTurn {
+  color: #d16060;
+  text-align: center;
+}
+
+.BluePlayerTurn {
+  color: #6d99e0;
+  text-align: center;
+}
+
+.Wrapper {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}

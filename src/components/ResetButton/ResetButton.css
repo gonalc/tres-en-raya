@@ -1,0 +1,15 @@
+.ResetButton {
+  border: none;
+  padding: 20px 40px;
+  background-color: #53B507;
+  color: white;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 0 200px;
+  text-align: center;
+}
+
+.ResetButton:focus {
+  outline: none;
+}
